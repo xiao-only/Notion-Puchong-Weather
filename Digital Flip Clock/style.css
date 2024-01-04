@@ -9,9 +9,6 @@ body {
 	    -ms-flex-align: center;
 	        align-items: center;
 	height: 100vh;
-	overflow: hidden;
-	position: fixed;
-	top: 0;
 }
 
 .clock {
@@ -49,13 +46,13 @@ body {
 
 .digital::before {
 	top: 0;
-	bottom: 50%;
+	bottom: 5%;
 	border-bottom: 1px solid #666;
 	border-radius: 10px 10px 0 0;
 }
 
 .digital::after {
-	top: 50%;
+	top: 5%;
 	bottom: 0;
 	line-height: 0;
 	border-radius: 0 0 10px 10px;
