@@ -11,6 +11,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	position: fixed;
+	top: 0;
 }
 
 .clock {
