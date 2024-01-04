@@ -108,8 +108,9 @@ h1 {
 
 <script>
     function date() {
+var options = { weekday: 'short', year: 'numeric', month: 'long', day: 'numeric' };
 var today = new Date();
-document.getElementById('date').innerHTML = today.toDateString();
+document.getElementById('date').innerHTML = today.toLocaleDateString("en-MY", options);
 }
 
 
