@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #efefef;
+  background: transparent;
 }
 ::selection {
   color: #fff;
@@ -21,7 +21,7 @@ body {
 .container {
   width: 420px;
   border-radius: 7px;
-  background: #fff;
+  background: #262626;
   padding: 25px 28px 45px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
@@ -29,6 +29,7 @@ body {
   font-size: 28px;
   font-weight: 900;
   text-align: center;
+  color: #fff;
 }
 .container .search {
   position: relative;
@@ -42,6 +43,8 @@ body {
   border-radius: 5px;
   padding: 0 42px;
   border: 1px solid #999;
+  background: #262626;
+  color: #fff;
 }
 .search input:focus {
   padding: 0 41px;
@@ -108,6 +111,8 @@ body {
 ul .word p {
   font-size: 22px;
   font-weight: 500;
+  background: #262626;
+  color: #fff;
 }
 ul .word span {
   font-size: 12px;
@@ -128,6 +133,8 @@ ul .content::-webkit-scrollbar {
 .content li .details {
   padding-left: 10px;
   border-left: 3px solid #4d59fb;
+  background: #262626;
+  color: #fff;
 }
 .content li p {
   font-size: 17px;
