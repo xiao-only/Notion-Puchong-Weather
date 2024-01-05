@@ -291,6 +291,7 @@ var _callbacks_ = {
                     } else if (event.which >= 49 && event.which <= 53) { 
                         // pressed number between 1 and 5
                         self.makeSelection(event.which - 49);
+                        self.currentText = '';
                     } else if (key == ',') { // go to previous page
                         self.previousPage();
                     } else if (key == '.') { // go to next page
